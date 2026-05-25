@@ -2,6 +2,9 @@
 AI deadline setter that can minimize procrastination by balancing task difficulty with your actual free time
 Author: Sreekar Reddy
 
+## Live URL:
+https://procrack-vzccyddvwdzlmxynseyw4o.streamlit.app/
+
 ## Features
 - Predicts task completion days
 - Generates smart work schedules
