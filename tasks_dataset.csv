@@ -1,0 +1,501 @@
+Task,Difficulty(1-10),Available_Hours_Per_Day,Days_Left,Distraction_Level(1-10),Estimated_Completion_Days
+Assignment,7,3,5,6,4
+Project Report,9,2,7,8,6
+Workout Plan,4,1,10,3,8
+Exam Preparation,10,5,15,7,12
+Presentation,6,2,4,5,3
+Coding Practice,8,4,8,6,6
+Reading Book,3,1,12,2,10
+Research Paper,9,3,14,7,11
+UI Design,5,2,6,4,5
+Data Cleaning,7,3,9,5,7
+Math Homework,6,2,3,4,2
+ML Project,10,5,20,8,15
+Blog Writing,4,1,5,3,4
+Interview Prep,8,4,10,7,8
+Poster Design,5,2,4,4,3
+Assignment,7,3,6,5,5
+Project Report,9,2,8,8,7
+Workout Plan,4,1,9,2,7
+Exam Preparation,10,6,18,9,14
+Presentation,6,2,5,5,4
+Coding Practice,8,3,7,6,5
+Reading Book,3,1,14,1,12
+Research Paper,9,4,16,8,13
+UI Design,5,2,7,4,5
+Data Cleaning,7,3,8,5,6
+Math Homework,6,2,4,3,3
+ML Project,10,5,22,9,16
+Blog Writing,4,1,6,2,5
+Interview Prep,8,4,11,7,9
+Poster Design,5,2,5,4,4
+Assignment,7,3,5,6,4
+Project Report,9,2,7,8,6
+Workout Plan,4,1,10,3,8
+Exam Preparation,10,5,15,7,12
+Presentation,6,2,4,5,3
+Coding Practice,8,4,8,6,6
+Reading Book,3,1,12,2,10
+Research Paper,9,3,14,7,11
+UI Design,5,2,6,4,5
+Data Cleaning,7,3,9,5,7
+Math Homework,6,2,3,4,2
+ML Project,10,5,20,8,15
+Blog Writing,4,1,5,3,4
+Interview Prep,8,4,10,7,8
+Poster Design,5,2,4,4,3
+Assignment,7,3,6,5,5
+Project Report,9,2,8,8,7
+Workout Plan,4,1,9,2,7
+Exam Preparation,10,6,18,9,14
+Presentation,6,2,5,5,4
+Coding Practice,8,3,7,6,5
+Reading Book,3,1,14,1,12
+Research Paper,9,4,16,8,13
+UI Design,5,2,7,4,5
+Data Cleaning,7,3,8,5,6
+Math Homework,6,2,4,3,3
+ML Project,10,5,22,9,16
+Blog Writing,4,1,6,2,5
+Interview Prep,8,4,11,7,9
+Poster Design,5,2,5,4,4
+Assignment,7,3,5,6,4
+Project Report,9,2,7,8,6
+Workout Plan,4,1,10,3,8
+Exam Preparation,10,5,15,7,12
+Presentation,6,2,4,5,3
+Coding Practice,8,4,8,6,6
+Reading Book,3,1,12,2,10
+Research Paper,9,3,14,7,11
+UI Design,5,2,6,4,5
+Data Cleaning,7,3,9,5,7
+Math Homework,6,2,3,4,2
+ML Project,10,5,20,8,15
+Blog Writing,4,1,5,3,4
+Interview Prep,8,4,10,7,8
+Poster Design,5,2,4,4,3
+Assignment,7,3,6,5,5
+Project Report,9,2,8,8,7
+Workout Plan,4,1,9,2,7
+Exam Preparation,10,6,18,9,14
+Presentation,6,2,5,5,4
+Coding Practice,8,3,7,6,5
+Reading Book,3,1,14,1,12
+Research Paper,9,4,16,8,13
+UI Design,5,2,7,4,5
+Data Cleaning,7,3,8,5,6
+Math Homework,6,2,4,3,3
+ML Project,10,5,22,9,16
+Blog Writing,4,1,6,2,5
+Interview Prep,8,4,11,7,9
+Poster Design,5,2,5,4,4
+Assignment,7,3,5,6,4
+Project Report,9,2,7,8,6
+Workout Plan,4,1,10,3,8
+Exam Preparation,10,5,15,7,12
+Presentation,6,2,4,5,3
+Coding Practice,8,4,8,6,6
+Reading Book,3,1,12,2,10
+Research Paper,9,3,14,7,11
+UI Design,5,2,6,4,5
+Data Cleaning,7,3,9,5,7
+Math Homework,6,2,3,4,2
+ML Project,10,5,20,8,15
+Blog Writing,4,1,5,3,4
+Interview Prep,8,4,10,7,8
+Poster Design,5,2,4,4,3
+Assignment,7,3,6,5,5
+Project Report,9,2,8,8,7
+Workout Plan,4,1,9,2,7
+Exam Preparation,10,6,18,9,14
+Presentation,6,2,5,5,4
+Coding Practice,8,3,7,6,5
+Reading Book,3,1,14,1,12
+Research Paper,9,4,16,8,13
+UI Design,5,2,7,4,5
+Data Cleaning,7,3,8,5,6
+Math Homework,6,2,4,3,3
+ML Project,10,5,22,9,16
+Blog Writing,4,1,6,2,5
+Interview Prep,8,4,11,7,9
+Poster Design,5,2,5,4,4
+Assignment,7,3,5,6,4
+Project Report,9,2,7,8,6
+Workout Plan,4,1,10,3,8
+Exam Preparation,10,5,15,7,12
+Presentation,6,2,4,5,3
+Coding Practice,8,4,8,6,6
+Reading Book,3,1,12,2,10
+Research Paper,9,3,14,7,11
+UI Design,5,2,6,4,5
+Data Cleaning,7,3,9,5,7
+Math Homework,6,2,3,4,2
+ML Project,10,5,20,8,15
+Blog Writing,4,1,5,3,4
+Interview Prep,8,4,10,7,8
+Poster Design,5,2,4,4,3
+Assignment,7,3,6,5,5
+Project Report,9,2,8,8,7
+Workout Plan,4,1,9,2,7
+Exam Preparation,10,6,18,9,14
+Presentation,6,2,5,5,4
+Coding Practice,8,3,7,6,5
+Reading Book,3,1,14,1,12
+Research Paper,9,4,16,8,13
+UI Design,5,2,7,4,5
+Data Cleaning,7,3,8,5,6
+Math Homework,6,2,4,3,3
+ML Project,10,5,22,9,16
+Blog Writing,4,1,6,2,5
+Interview Prep,8,4,11,7,9
+Poster Design,5,2,5,4,4
+Assignment,7,3,5,6,4
+Project Report,9,2,7,8,6
+Workout Plan,4,1,10,3,8
+Exam Preparation,10,5,15,7,12
+Presentation,6,2,4,5,3
+Coding Practice,8,4,8,6,6
+Reading Book,3,1,12,2,10
+Research Paper,9,3,14,7,11
+UI Design,5,2,6,4,5
+Data Cleaning,7,3,9,5,7
+Math Homework,6,2,3,4,2
+ML Project,10,5,20,8,15
+Blog Writing,4,1,5,3,4
+Interview Prep,8,4,10,7,8
+Poster Design,5,2,4,4,3
+Assignment,7,3,6,5,5
+Project Report,9,2,8,8,7
+Workout Plan,4,1,9,2,7
+Exam Preparation,10,6,18,9,14
+Presentation,6,2,5,5,4
+Coding Practice,8,3,7,6,5
+Reading Book,3,1,14,1,12
+Research Paper,9,4,16,8,13
+UI Design,5,2,7,4,5
+Data Cleaning,7,3,8,5,6
+Math Homework,6,2,4,3,3
+ML Project,10,5,22,9,16
+Blog Writing,4,1,6,2,5
+Interview Prep,8,4,11,7,9
+Poster Design,5,2,5,4,4
+Assignment,7,3,5,6,4
+Project Report,9,2,7,8,6
+Workout Plan,4,1,10,3,8
+Exam Preparation,10,5,15,7,12
+Presentation,6,2,4,5,3
+Coding Practice,8,4,8,6,6
+Reading Book,3,1,12,2,10
+Research Paper,9,3,14,7,11
+UI Design,5,2,6,4,5
+Data Cleaning,7,3,9,5,7
+Math Homework,6,2,3,4,2
+ML Project,10,5,20,8,15
+Blog Writing,4,1,5,3,4
+Interview Prep,8,4,10,7,8
+Poster Design,5,2,4,4,3
+Assignment,7,3,6,5,5
+Project Report,9,2,8,8,7
+Workout Plan,4,1,9,2,7
+Exam Preparation,10,6,18,9,14
+Presentation,6,2,5,5,4
+Coding Practice,8,3,7,6,5
+Reading Book,3,1,14,1,12
+Research Paper,9,4,16,8,13
+UI Design,5,2,7,4,5
+Data Cleaning,7,3,8,5,6
+Math Homework,6,2,4,3,3
+ML Project,10,5,22,9,16
+Blog Writing,4,1,6,2,5
+Interview Prep,8,4,11,7,9
+Poster Design,5,2,5,4,4
+Assignment,7,3,5,6,4
+Project Report,9,2,7,8,6
+Workout Plan,4,1,10,3,8
+Exam Preparation,10,5,15,7,12
+Presentation,6,2,4,5,3
+Coding Practice,8,4,8,6,6
+Reading Book,3,1,12,2,10
+Research Paper,9,3,14,7,11
+UI Design,5,2,6,4,5
+Data Cleaning,7,3,9,5,7
+Math Homework,6,2,3,4,2
+ML Project,10,5,20,8,15
+Blog Writing,4,1,5,3,4
+Interview Prep,8,4,10,7,8
+Poster Design,5,2,4,4,3
+Assignment,7,3,6,5,5
+Project Report,9,2,8,8,7
+Workout Plan,4,1,9,2,7
+Exam Preparation,10,6,18,9,14
+Presentation,6,2,5,5,4
+Coding Practice,8,3,7,6,5
+Reading Book,3,1,14,1,12
+Research Paper,9,4,16,8,13
+UI Design,5,2,7,4,5
+Data Cleaning,7,3,8,5,6
+Math Homework,6,2,4,3,3
+ML Project,10,5,22,9,16
+Blog Writing,4,1,6,2,5
+Interview Prep,8,4,11,7,9
+Poster Design,5,2,5,4,4
+Assignment,7,3,5,6,4
+Project Report,9,2,7,8,6
+Workout Plan,4,1,10,3,8
+Exam Preparation,10,5,15,7,12
+Presentation,6,2,4,5,3
+Coding Practice,8,4,8,6,6
+Reading Book,3,1,12,2,10
+Research Paper,9,3,14,7,11
+UI Design,5,2,6,4,5
+Data Cleaning,7,3,9,5,7
+Math Homework,6,2,3,4,2
+ML Project,10,5,20,8,15
+Blog Writing,4,1,5,3,4
+Interview Prep,8,4,10,7,8
+Poster Design,5,2,4,4,3
+Assignment,7,3,6,5,5
+Project Report,9,2,8,8,7
+Workout Plan,4,1,9,2,7
+Exam Preparation,10,6,18,9,14
+Presentation,6,2,5,5,4
+Coding Practice,8,3,7,6,5
+Reading Book,3,1,14,1,12
+Research Paper,9,4,16,8,13
+UI Design,5,2,7,4,5
+Data Cleaning,7,3,8,5,6
+Math Homework,6,2,4,3,3
+ML Project,10,5,22,9,16
+Blog Writing,4,1,6,2,5
+Interview Prep,8,4,11,7,9
+Poster Design,5,2,5,4,4
+Assignment,7,3,5,6,4
+Project Report,9,2,7,8,6
+Workout Plan,4,1,10,3,8
+Exam Preparation,10,5,15,7,12
+Presentation,6,2,4,5,3
+Coding Practice,8,4,8,6,6
+Reading Book,3,1,12,2,10
+Research Paper,9,3,14,7,11
+UI Design,5,2,6,4,5
+Data Cleaning,7,3,9,5,7
+Math Homework,6,2,3,4,2
+ML Project,10,5,20,8,15
+Blog Writing,4,1,5,3,4
+Interview Prep,8,4,10,7,8
+Poster Design,5,2,4,4,3
+Assignment,7,3,6,5,5
+Project Report,9,2,8,8,7
+Workout Plan,4,1,9,2,7
+Exam Preparation,10,6,18,9,14
+Presentation,6,2,5,5,4
+Coding Practice,8,3,7,6,5
+Reading Book,3,1,14,1,12
+Research Paper,9,4,16,8,13
+UI Design,5,2,7,4,5
+Data Cleaning,7,3,8,5,6
+Math Homework,6,2,4,3,3
+ML Project,10,5,22,9,16
+Blog Writing,4,1,6,2,5
+Interview Prep,8,4,11,7,9
+Poster Design,5,2,5,4,4
+Assignment,7,3,5,6,4
+Project Report,9,2,7,8,6
+Workout Plan,4,1,10,3,8
+Exam Preparation,10,5,15,7,12
+Presentation,6,2,4,5,3
+Coding Practice,8,4,8,6,6
+Reading Book,3,1,12,2,10
+Research Paper,9,3,14,7,11
+UI Design,5,2,6,4,5
+Data Cleaning,7,3,9,5,7
+Math Homework,6,2,3,4,2
+ML Project,10,5,20,8,15
+Blog Writing,4,1,5,3,4
+Interview Prep,8,4,10,7,8
+Poster Design,5,2,4,4,3
+Assignment,7,3,6,5,5
+Project Report,9,2,8,8,7
+Workout Plan,4,1,9,2,7
+Exam Preparation,10,6,18,9,14
+Presentation,6,2,5,5,4
+Coding Practice,8,3,7,6,5
+Reading Book,3,1,14,1,12
+Research Paper,9,4,16,8,13
+UI Design,5,2,7,4,5
+Data Cleaning,7,3,8,5,6
+Math Homework,6,2,4,3,3
+ML Project,10,5,22,9,16
+Blog Writing,4,1,6,2,5
+Interview Prep,8,4,11,7,9
+Poster Design,5,2,5,4,4
+Assignment,7,3,5,6,4
+Project Report,9,2,7,8,6
+Workout Plan,4,1,10,3,8
+Exam Preparation,10,5,15,7,12
+Presentation,6,2,4,5,3
+Coding Practice,8,4,8,6,6
+Reading Book,3,1,12,2,10
+Research Paper,9,3,14,7,11
+UI Design,5,2,6,4,5
+Data Cleaning,7,3,9,5,7
+Math Homework,6,2,3,4,2
+ML Project,10,5,20,8,15
+Blog Writing,4,1,5,3,4
+Interview Prep,8,4,10,7,8
+Poster Design,5,2,4,4,3
+Assignment,7,3,6,5,5
+Project Report,9,2,8,8,7
+Workout Plan,4,1,9,2,7
+Exam Preparation,10,6,18,9,14
+Presentation,6,2,5,5,4
+Coding Practice,8,3,7,6,5
+Reading Book,3,1,14,1,12
+Research Paper,9,4,16,8,13
+UI Design,5,2,7,4,5
+Data Cleaning,7,3,8,5,6
+Math Homework,6,2,4,3,3
+ML Project,10,5,22,9,16
+Blog Writing,4,1,6,2,5
+Interview Prep,8,4,11,7,9
+Poster Design,5,2,5,4,4
+Assignment,7,3,5,6,4
+Project Report,9,2,7,8,6
+Workout Plan,4,1,10,3,8
+Exam Preparation,10,5,15,7,12
+Presentation,6,2,4,5,3
+Coding Practice,8,4,8,6,6
+Reading Book,3,1,12,2,10
+Research Paper,9,3,14,7,11
+UI Design,5,2,6,4,5
+Data Cleaning,7,3,9,5,7
+Math Homework,6,2,3,4,2
+ML Project,10,5,20,8,15
+Blog Writing,4,1,5,3,4
+Interview Prep,8,4,10,7,8
+Poster Design,5,2,4,4,3
+Assignment,7,3,6,5,5
+Project Report,9,2,8,8,7
+Workout Plan,4,1,9,2,7
+Exam Preparation,10,6,18,9,14
+Presentation,6,2,5,5,4
+Coding Practice,8,3,7,6,5
+Reading Book,3,1,14,1,12
+Research Paper,9,4,16,8,13
+UI Design,5,2,7,4,5
+Data Cleaning,7,3,8,5,6
+Math Homework,6,2,4,3,3
+ML Project,10,5,22,9,16
+Blog Writing,4,1,6,2,5
+Interview Prep,8,4,11,7,9
+Poster Design,5,2,5,4,4
+Assignment,7,3,5,6,4
+Project Report,9,2,7,8,6
+Workout Plan,4,1,10,3,8
+Exam Preparation,10,5,15,7,12
+Presentation,6,2,4,5,3
+Coding Practice,8,4,8,6,6
+Reading Book,3,1,12,2,10
+Research Paper,9,3,14,7,11
+UI Design,5,2,6,4,5
+Data Cleaning,7,3,9,5,7
+Math Homework,6,2,3,4,2
+ML Project,10,5,20,8,15
+Blog Writing,4,1,5,3,4
+Interview Prep,8,4,10,7,8
+Poster Design,5,2,4,4,3
+Assignment,7,3,6,5,5
+Project Report,9,2,8,8,7
+Workout Plan,4,1,9,2,7
+Exam Preparation,10,6,18,9,14
+Presentation,6,2,5,5,4
+Coding Practice,8,3,7,6,5
+Reading Book,3,1,14,1,12
+Research Paper,9,4,16,8,13
+UI Design,5,2,7,4,5
+Data Cleaning,7,3,8,5,6
+Math Homework,6,2,4,3,3
+ML Project,10,5,22,9,16
+Blog Writing,4,1,6,2,5
+Interview Prep,8,4,11,7,9
+Poster Design,5,2,5,4,4
+Assignment,7,3,5,6,4
+Project Report,9,2,7,8,6
+Workout Plan,4,1,10,3,8
+Exam Preparation,10,5,15,7,12
+Presentation,6,2,4,5,3
+Coding Practice,8,4,8,6,6
+Reading Book,3,1,12,2,10
+Research Paper,9,3,14,7,11
+UI Design,5,2,6,4,5
+Data Cleaning,7,3,9,5,7
+Math Homework,6,2,3,4,2
+ML Project,10,5,20,8,15
+Blog Writing,4,1,5,3,4
+Interview Prep,8,4,10,7,8
+Poster Design,5,2,4,4,3
+Assignment,7,3,6,5,5
+Project Report,9,2,8,8,7
+Workout Plan,4,1,9,2,7
+Exam Preparation,10,6,18,9,14
+Presentation,6,2,5,5,4
+Coding Practice,8,3,7,6,5
+Reading Book,3,1,14,1,12
+Research Paper,9,4,16,8,13
+UI Design,5,2,7,4,5
+Data Cleaning,7,3,8,5,6
+Math Homework,6,2,4,3,3
+ML Project,10,5,22,9,16
+Blog Writing,4,1,6,2,5
+Interview Prep,8,4,11,7,9
+Poster Design,5,2,5,4,4
+Assignment,7,3,5,6,4
+Project Report,9,2,7,8,6
+Workout Plan,4,1,10,3,8
+Exam Preparation,10,5,15,7,12
+Presentation,6,2,4,5,3
+Coding Practice,8,4,8,6,6
+Reading Book,3,1,12,2,10
+Research Paper,9,3,14,7,11
+UI Design,5,2,6,4,5
+Data Cleaning,7,3,9,5,7
+Math Homework,6,2,3,4,2
+ML Project,10,5,20,8,15
+Blog Writing,4,1,5,3,4
+Interview Prep,8,4,10,7,8
+Poster Design,5,2,4,4,3
+Assignment,7,3,6,5,5
+Project Report,9,2,8,8,7
+Workout Plan,4,1,9,2,7
+Exam Preparation,10,6,18,9,14
+Presentation,6,2,5,5,4
+Coding Practice,8,3,7,6,5
+Reading Book,3,1,14,1,12
+Research Paper,9,4,16,8,13
+UI Design,5,2,7,4,5
+Data Cleaning,7,3,8,5,6
+Math Homework,6,2,4,3,3
+ML Project,10,5,22,9,16
+Blog Writing,4,1,6,2,5
+Interview Prep,8,4,11,7,9
+Poster Design,5,2,5,4,4
+Assignment,7,3,5,6,4
+Project Report,9,2,7,8,6
+Workout Plan,4,1,10,3,8
+Exam Preparation,10,5,15,7,12
+Presentation,6,2,4,5,3
+Coding Practice,8,4,8,6,6
+Reading Book,3,1,12,2,10
+Research Paper,9,3,14,7,11
+UI Design,5,2,6,4,5
+Data Cleaning,7,3,9,5,7
+Math Homework,6,2,3,4,2
+ML Project,10,5,20,8,15
+Blog Writing,4,1,5,3,4
+Interview Prep,8,4,10,7,8
+Poster Design,5,2,4,4,3
+Assignment,7,3,6,5,5
+Project Report,9,2,8,8,7
+Workout Plan,4,1,9,2,7
+Exam Preparation,10,6,18,9,14
+Presentation,6,2,5,5,4
