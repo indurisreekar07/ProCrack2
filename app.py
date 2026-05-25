@@ -2,15 +2,12 @@ import streamlit as st
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 
-# App title
 st.title("ProCrack AI")
 
 st.subheader("Smart Deadline Prediction System")
 
-# Load dataset
 data = pd.read_csv("tasks_dataset.csv")
 
-# Features
 X = data[[
     'Difficulty(1-10)',
     'Available_Hours_Per_Day',
@@ -18,14 +15,11 @@ X = data[[
     'Distraction_Level(1-10)'
 ]]
 
-# Target
 y = data['Estimated_Completion_Days']
 
-# Train model
 model = LinearRegression()
 model.fit(X, y)
 
-# User Inputs
 difficulty = st.slider(
     "Task Difficulty",
     1,
@@ -54,7 +48,6 @@ distraction = st.slider(
     5
 )
 
-# Prediction
 if st.button("Predict Deadline"):
 
     prediction = model.predict([[
