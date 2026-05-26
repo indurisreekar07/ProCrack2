@@ -1,5 +1,6 @@
 # ProCrack
 AI deadline setter that can minimize procrastination by balancing task difficulty with your actual available time
+<br>
 Author: Sreekar Reddy
 
 ## Live URL:
