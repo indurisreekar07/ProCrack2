@@ -10,6 +10,7 @@ SUPABASE_URL = st.secrets["SUPABASE_URL"]
 SUPABASE_KEY = st.secrets["SUPABASE_KEY"]
 
 supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
+st.write("SUPABASE_URL:", SUPABASE_URL)
 
 
 def hash_password(password):
@@ -36,27 +37,21 @@ def register_user(username, password):
 
 
 def login_user(username, password):
-    try:
-        result = (
-            supabase.table("users")
-            .select("password")
-            .eq("username", username)
-            .execute()
-        )
+    result = (
+        supabase.table("users")
+        .select("password")
+        .eq("username", username)
+        .execute()
+    )
 
-        st.write(result)  # Temporary: shows the response
+    if not result.data:
+        return False, "Username not found."
 
-        if not result.data:
-            return False, "Username not found."
+    if result.data[0]["password"] != hash_password(password):
+        return False, "Incorrect password."
 
-        if result.data[0]["password"] != hash_password(password):
-            return False, "Incorrect password."
+    return True, "Login successful!"
 
-        return True, "Login successful!"
-
-    except Exception as e:
-        st.exception(e)
-        return False, str(e)
 
 
 def save_history(username, inputs, prediction):
