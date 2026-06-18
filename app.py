@@ -36,20 +36,27 @@ def register_user(username, password):
 
 
 def login_user(username, password):
-    result = (
-        supabase.table("users")
-        .select("password")
-        .eq("username", username)
-        .execute()
-    )
+    try:
+        result = (
+            supabase.table("users")
+            .select("password")
+            .eq("username", username)
+            .execute()
+        )
 
-    if not result.data:
-        return False, "Username not found."
+        st.write(result)  # Temporary: shows the response
 
-    if result.data[0]["password"] != hash_password(password):
-        return False, "Incorrect password."
+        if not result.data:
+            return False, "Username not found."
 
-    return True, "Login successful!"
+        if result.data[0]["password"] != hash_password(password):
+            return False, "Incorrect password."
+
+        return True, "Login successful!"
+
+    except Exception as e:
+        st.exception(e)
+        return False, str(e)
 
 
 def save_history(username, inputs, prediction):
