@@ -1,63 +1,79 @@
 import streamlit as st
 import pandas as pd
-import json
-import os
 import hashlib
 from datetime import datetime
 from sklearn.linear_model import LinearRegression
+from supabase import create_client
 
 
-USERS_FILE = "users.json"
-HISTORY_FILE = "history.json"
+SUPABASE_URL = st.secrets["SUPABASE_URL"]
+SUPABASE_KEY = st.secrets["SUPABASE_KEY"]
+
+supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 
 def hash_password(password):
     return hashlib.sha256(password.encode()).hexdigest()
 
-def load_json(filepath):
-    if os.path.exists(filepath):
-        with open(filepath, "r") as f:
-            return json.load(f)
-    return {}
-
-def save_json(filepath, data):
-    with open(filepath, "w") as f:
-        json.dump(data, f, indent=2)
 
 def register_user(username, password):
-    users = load_json(USERS_FILE)
-    if username in users:
+    existing = (
+        supabase.table("users")
+        .select("username")
+        .eq("username", username)
+        .execute()
+    )
+
+    if existing.data:
         return False, "Username already exists."
-    users[username] = hash_password(password)
-    save_json(USERS_FILE, users)
+
+    supabase.table("users").insert({
+        "username": username,
+        "password": hash_password(password)
+    }).execute()
+
     return True, "Registration successful!"
 
+
 def login_user(username, password):
-    users = load_json(USERS_FILE)
-    if username not in users:
+    result = (
+        supabase.table("users")
+        .select("password")
+        .eq("username", username)
+        .execute()
+    )
+
+    if not result.data:
         return False, "Username not found."
-    if users[username] != hash_password(password):
+
+    if result.data[0]["password"] != hash_password(password):
         return False, "Incorrect password."
+
     return True, "Login successful!"
 
+
 def save_history(username, inputs, prediction):
-    history = load_json(HISTORY_FILE)
-    if username not in history:
-        history[username] = []
-    entry = {
+    supabase.table("history").insert({
+        "username": username,
         "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M"),
         "difficulty": inputs[0],
         "hours_per_day": inputs[1],
         "days_left": inputs[2],
         "distraction": inputs[3],
         "predicted_days": round(prediction, 2)
-    }
-    history[username].append(entry)
-    save_json(HISTORY_FILE, history)
+    }).execute()
+
 
 def get_history(username):
-    history = load_json(HISTORY_FILE)
-    return history.get(username, [])
+    result = (
+        supabase.table("history")
+        .select("*")
+        .eq("username", username)
+        .order("id", desc=True)
+        .execute()
+    )
+
+    return result.data
 
 
 @st.cache_resource
@@ -134,10 +150,10 @@ else:
         st.success(f"⏱️ Estimated Completion Time: **{round(prediction, 2)} days**")
 
         # ── Low Time Warning ──
-        if round(prediction[0], 2) > days_left:
-            st.error(f"🚨 WARNING: The task is estimated to take {round(prediction[0], 2)} days but you only have {days_left} days left! You need to increase hours or reduce distraction immediately.")
-        elif round(prediction[0], 2) > days_left * 0.85:
-            st.warning(f"⚠️ Tight deadline! Estimated {round(prediction[0], 2)} days vs {days_left} days available. Very little buffer.")
+        if round(prediction, 2) > days_left:
+            st.error(f"🚨 WARNING: The task is estimated to take {round(prediction, 2)} days but you only have {days_left} days left! You need to increase hours or reduce distraction immediately.")
+        elif round(prediction, 2) > days_left * 0.85:
+            st.warning(f"⚠️ Tight deadline! Estimated {round(prediction, 2)} days vs {days_left} days available. Very little buffer.")
 
         history = get_history(username)
         if len(history) > 1:
