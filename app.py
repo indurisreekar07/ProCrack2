@@ -133,6 +133,12 @@ else:
 
         st.success(f"⏱️ Estimated Completion Time: **{round(prediction, 2)} days**")
 
+        # ── Low Time Warning ──
+        if round(prediction[0], 2) > days_left:
+            st.error(f"🚨 WARNING: The task is estimated to take {round(prediction[0], 2)} days but you only have {days_left} days left! You need to increase hours or reduce distraction immediately.")
+        elif round(prediction[0], 2) > days_left * 0.85:
+            st.warning(f"⚠️ Tight deadline! Estimated {round(prediction[0], 2)} days vs {days_left} days available. Very little buffer.")
+
         history = get_history(username)
         if len(history) > 1:
             past_predictions = [h["predicted_days"] for h in history[:-1]]
